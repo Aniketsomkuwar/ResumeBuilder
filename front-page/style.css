@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+:root {
+  --main_font: "Bebas Neue", cursive;
+  --primary: #05343a;
+  --secondary: #0eb29f;
+  --text: #e9c37a;
+}
+body{
+  width: 100%;
+}
+/* header */
+.brandname {
+  padding-left: 40px;
+}
+
+.navbar {
+  background-color: var(--primary);
+}
+.navbar-items {
+  list-style-type: none;
+}
+
+.navbar-links {
+  padding: 0 20px 0 20px;
+}
+.navbar-links a,
+.brandname {
+  padding: 40px;
+  text-decoration: none;
+  font-family: var(--main_font);
+  letter-spacing: 7px;
+  font-size: 30px;
+  color: var(--text);
+}
+.navbar-links a:hover,
+.brandname:hover {
+  color: var(--secondary);
+}
+
+/* section */
+
+section{
+  background-color: var(--primary);
+  text-align: center;
+color:var(--text);
+
+}
+section h1{
+  font-size: 60px;
+  font-weight: 100;
+}
+section p {
+  padding:5px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+
+section button{
+ margin-top: 20px;
+  background-color: red;
+
+}
+
+
+/* footer */
+footer {
+  background-color: var(--primary);
+  padding: 20px;
+  text-align: center;
+  color: var(--text);
+  letter-spacing: 2px;
+  word-spacing: 1px;
+
+  text-transform:capitalize;
+}
+footer h6 {
+  font-size: 15px;
+}
+footer h6 a {
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--secondary);
+}
