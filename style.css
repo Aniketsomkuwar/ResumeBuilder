@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+:root {
+  --main_font: "Bebas Neue", cursive;
+  --primary: #05343a;
+  --secondary: #0eb29f;
+  --text: #e9c37a;
+}
+
+/* header */
+.brandname {
+  padding-left: 40px;
+}
+
+.navbar {
+  background-color: var(--primary);
+}
+.navbar-items {
+  list-style-type: none;
+}
+
+.navbar-links {
+  padding: 0 20px 0 20px;
+}
+.navbar-links a,
+.brandname {
+  padding: 40px;
+  text-decoration: none;
+  font-family: var(--main_font);
+  letter-spacing: 7px;
+  font-size: 30px;
+  color: var(--text);
+}
+.navbar-links a:hover,
+.brandname:hover {
+  color: var(--secondary);
+}
+
+/* section */
+
+label {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: smaller;
+}
+
+/* footer */
+footer {
+  background-color: var(--primary);
+  padding: 20px;
+  text-align: center;
+  color: var(--text);
+  letter-spacing: 2px;
+  word-spacing: 1px;
+
+  text-transform:capitalize;
+}
+footer h6 {
+  font-size: 20px;
+}
+footer h6 a {
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--secondary);
+}
