@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+    <header id="head">
+        <nav class="navbar" id="nav">
+            <div class="container-fluid" id="container">
+                <a href="../front-page/landing_page.html" class="brandname  ps-5 ms-5 fw-bold" id="resume-builder">Resume Builder</a>
+                <form id="form-1" class="d-flex">
+                    <ul id="nav-list" class="navbar-items d-flex justify-content-evenly m-0 ">
+                        <li id="nav-list-1" class="navbar-links"><a class="fw-bold" href="">Build</a></li>
+                        <li class="navbar-links"><a class="fw-bold" target="_blank"
+                            href="https://github.com/Aniketsomkuwar/ResumeBuilder">Source Code</a></li>
+                        <li id="nav-list-3" class="navbar-links"><a class="fw-bold"
+                                href="../front-page/landing_page.html">About</a></li>
+                    </ul>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div id="contain" class="container-fluid">
+            <form id="form-2" class="w-50 ">
+                <div id="about" class="info more">
+                    <h3 id="heading-1" class="mt-3 mb-4 head">Your Personal Info</h3>
+                    <div id="info-block-1" class="form-row row">
+                        <div id="col-1" class="form-group col-md-6">
+                            <label for="name">First Name</label>
+                            <input type="text" id="name" class="form-control">
+                        </div>
+                        <div id="col-2" class="form-group col-md-6">
+                            <label for="surname">Surname</label>
+                            <input type="text" id="lastname" class="form-control">
+                        </div>
+                        <div id="col-3" class="form-group col-md-6">
+                            <label>City</label>
+                            <input type="text" id="city" class="form-control">
+                        </div>
+                        <div id="col-4" class="form-group col-md-6">
+                            <label>State</label>
+                            <input type="text" id="state" class="form-control">
+                        </div>
+                        <div id="col-5" class="form-group col-md-6">
+                            <label>Postcode</label>
+                            <input type="text" id="postcode" class="form-control">
+                        </div>
+                        <div id="col-6" class="form-group col-md-6">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" class="form-control">
+                        </div>
+                        <div id="col-7" class="form-group col-md-6">
+                            <label>E-mail</label>
+                            <input type="email" id="email" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div id="experience" class=" more">
+                    <h3 id="heading-2" class="mt-3 mb-4 head">Add Your Previous Experience</h3>
+                    <div id="info-block-2" class="form-row row">
+                        <div id="col-8" class="form-group col-md-6">
+                            <label>JOB TITLE</label>
+                            <input type="text" id="job" class="form-control">
+                        </div>
+                        <div id="col-9" class="form-group col-md-6">
+                            <label>EMPLOYER</label>
+                            <input type="text" id="employer" class="form-control">
+                        </div>
+                        <div id="col-10" class="form-group col-md-6">
+                            <label>CITY</label>
+                            <input type="text" id="city-2" class="form-control">
+                        </div>
+                        <div id="col-11" class="form-group col-md-6">
+                            <label>COUNTRY</label>
+                            <input type="text" id="country" class="form-control">
+                        </div>
+                        <div id="col-12" class="form-group col-md-6">
+                            <label>START DATE</label>
+                            <input type="date" id="s-date" class="form-control">
+                        </div>
+                        <div id="col-13" class="form-group col-md-6">
+                            <label>END DATE</label>
+                            <input type="date" id="e-date" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div id="project" class="more">
+                    <h3 id="heading-3" class="mt-3 mb-3 head">Tell Us About Your Project You Work at your previous job
+                    </h3>
+                    <div id="col-14" class="form-group">
+                        <label id="proj" for="exampleFormControlTextarea1">your projects</label>
+                        <textarea id="textarea-1" class="form-control" id="exampleFormControlTextarea1"
+                            rows="3"></textarea>
+                    </div>
+                </div>
+                <div id="education" class="more">
+                    <h3 id="heading-4" class="mt-3 mb-4 head">Add Your Education</h3>
+                    <div id="info-block-1" class="form-row row">
+                        <div id="col-15" class="form-group col-md-6">
+                            <label>INSTITUTION</label>
+                            <input type="text" id="institution" class="form-control">
+                        </div>
+                        <div id="col-16" class="form-group col-md-6">
+                            <label>CITY</label>
+                            <input type="text" id="instituteCity" class="form-control">
+                        </div>
+                        <div id="col-17" class="form-group col-md-6">
+                            <label>QUALIFICATION</label>
+                            <input type="text" id="qualification" class="form-control">
+                        </div>
+                        <div id="col-18" class="form-group col-md-6">
+                            <label>FIELD OF STUDY</label>
+                            <input type="text" id="fos" class="form-control">
+                        </div>
+
+                        <div id="col-19" class="form-group col-md-6">
+                            <label>YEAR OF GRADUATION</label>
+                            <input type="month" id="yog" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div id="skills" class="more">
+                    <h3 id="heading-5" class="mt-3 mb-4 head">Add Your Skills</h3>
+                    <div id="col-20" class="form-group">
+                        <label id="s-kills" for="exampleFormControlTextarea1">Skills</label>
+                        <textarea id="textarea-2" class="form-control" id="exampleFormControlTextarea1" rows="3">
+
+                        </textarea>
+
+                    </div>
+                </div>
+                <div id="summary" class="more">
+                    <h3 id="heading-6" class="mt-3 mb-4 head">Summary</h3>
+                    <div id="col-21" class="form-group">
+                        <label for="exampleFormControlTextarea1">summary</label>
+                        <textarea id="Summary" class="form-control" id="exampleFormControlTextarea1"
+                            rows="3"></textarea>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </section>
+    <!--previous & next button -->
+    <div class="container">
+        <div class="previous m-3 p-2">
+            <button id="previousButton" type="button" class="m-2 p-2">Previous</button>
+            <button id="nextButton" type="button" class="m-2 p-2">Next</button>
+        </div>
+    </div>
+
+
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+
+
+    <div class="showresume text-center">
+        <button class="p-2" id="resumebutton">show resume</button></a>
+    </div>
+    <footer class="bottom">
+        <h6 class="m-0">Developed By <a target="_blank"
+                href="https://www.linkedin.com/in/divyani-hirulkar-63999b1b1/">Divyani Hirulkar</a> & <a target="_blank"
+                href="https://www.linkedin.com/in/aniketsomkuwar/">Aniket Somkuwar</a></h6>
+    </footer>
+    <!-- jquery  -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <!-- custom js file -->
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>

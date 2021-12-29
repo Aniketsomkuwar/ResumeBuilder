@@ -6,7 +6,7 @@
   --secondary: #0eb29f;
   --text: #e9c37a;
 }
-body{
+body {
   width: 100%;
 }
 /* header */
@@ -39,52 +39,47 @@ body{
 }
 /* section */
 
-section{
+section {
   background-color: var(--primary);
   text-align: center;
-color:var(--text);
-
+  color: var(--text);
 }
-section h1{
+section h1 {
   font-size: 60px;
   font-weight: 100;
 }
 section p {
-  padding:5px;
+  padding: 5px;
   font-size: 15px;
   letter-spacing: 2px;
   word-spacing: 2px;
 }
 
-section button{
- margin-top: 20px;
+section button {
+  margin-top: 20px;
   background-color: red;
-
 }
 /* section-2*/
-.contain{
+.contain {
   height: 30vh;
-  width:100%;
+  width: 100%;
   position: relative;
-  display:flex;
+  display: flex;
   overflow: hidden;
   justify-content: start;
 }
-.text-1
-{
-  margin-top:auto;
+.text-1 {
+  margin-top: auto;
   margin-bottom: auto;
   font-size: 4rem;
   animation: anim 5s linear infinite;
 }
 
-@keyframes anim
-{
-  0%{
+@keyframes anim {
+  0% {
     transform: translateX(0);
   }
-  100%
-  {
+  100% {
     transform: translateX(100%);
   }
 }
@@ -95,11 +90,11 @@ footer {
   padding: 20px;
   text-align: center;
   color: var(--text);
-  height: 10vh;
+
   letter-spacing: 2px;
   word-spacing: 1px;
 
-  text-transform:capitalize;
+  text-transform: capitalize;
 }
 footer h6 {
   font-size: 15px;
