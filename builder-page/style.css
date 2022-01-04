@@ -36,10 +36,6 @@
 .brandname:hover {
   color: var(--secondary);
 }
-#contain
-{
-  display:none;
-}
 
 /* section */
 
@@ -86,13 +82,12 @@ input {
 textarea {
   height: 10rem;
 }
-<<<<<<< HEAD
 /*resume-template*/
 #resume-template
 {
   width: 21cm;
-  height: 29.7cm; 
-=======
+  
+}
 /* buttons */
 
 .previous button{
@@ -125,5 +120,5 @@ textarea {
   width: 200px;
   height: 200px;
   background-color: red;
->>>>>>> 573240cd44935374358e799da7243f20fae8737e
 }
+

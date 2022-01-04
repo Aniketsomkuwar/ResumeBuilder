@@ -9,6 +9,11 @@
 body {
   width: 100%;
 }
+
+#instruction{
+  background-color: var(--text);
+}
+
 /* header */
 .brandname {
   padding-left: 40px;

@@ -40,6 +40,9 @@ $(function () {
     showprev();
   });
 
+
+
+
   var visiblediv = 0;
   function showdiv() {
     $(".more").hide();
@@ -83,6 +86,29 @@ $(function () {
     showdiv();
 
   }
+
+
+  $("#resumebutton").click(function () { 
+    generatePDF();
+    
+  });
+
+  // adding content and manupulation
+
+  
 });
 
 
+function generatePDF() {
+  var doc = new jsPDF();  //create jsPDF object
+   doc.fromHTML(document.getElementById("ResumeSection"), // page element which you want to print as PDF
+   15,
+   15, 
+   {
+     'width': 170  //set width
+   },
+   function(a) 
+    {
+     doc.save("HTML2PDF.pdf"); // save file name as HTML2PDF.pdf
+   });
+ }
