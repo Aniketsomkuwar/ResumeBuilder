@@ -7,6 +7,7 @@
   --text: #e9c37a;
 }
 
+
 /* header */
 .brandname {
   padding-left: 40px;
@@ -57,7 +58,7 @@ footer {
   letter-spacing: 2px;
   word-spacing: 1px;
 
-  text-transform:capitalize;
+  text-transform: capitalize;
 }
 footer h6 {
   font-size: 15px;
@@ -67,31 +68,62 @@ footer h6 a {
   text-decoration: none;
   color: var(--secondary);
 }
-.more{
+.more {
   display: none;
-  margin:10px;
+  margin: 10px;
   padding: 10px;
 }
-.head
-{
+.head {
   color: var(--primary);
   font-size: 3rem;
 }
-label
-{
+label {
   font-size: 1rem;
 }
-input 
-{
+input {
   height: 40px;
 }
-textarea
-{
+textarea {
   height: 10rem;
 }
+<<<<<<< HEAD
 /*resume-template*/
 #resume-template
 {
   width: 21cm;
   height: 29.7cm; 
+=======
+/* buttons */
+
+.previous button{
+  background-color: transparent;
+  border: 0px;
+  color: var(--text);
+  text-transform: uppercase;
+  background-color: var(--primary);
+  border: 2px solid var(--text);
+  border-radius: 5px;
+}
+
+
+
+/* resume button */
+#resumebutton {
+  display: none;
+  background-color: transparent;
+  border: 0px;
+  color: var(--text);
+  text-transform: uppercase;
+  background-color: var(--primary);
+  border: 2px solid var(--text);
+  border-radius: 5px;
+}
+
+
+
+.box{
+  width: 200px;
+  height: 200px;
+  background-color: red;
+>>>>>>> 573240cd44935374358e799da7243f20fae8737e
 }
