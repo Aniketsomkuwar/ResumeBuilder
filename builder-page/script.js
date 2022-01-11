@@ -112,3 +112,10 @@ function generatePDF() {
      doc.save("HTML2PDF.pdf"); // save file name as HTML2PDF.pdf
    });
  }
+ // add more button//
+ //function addNewSkill()
+ 
+  
+ 
+ 
+ 
