@@ -40,27 +40,21 @@ $(function () {
     showprev();
   });
 
-
-
-
   var visiblediv = 0;
   function showdiv() {
     $(".more").hide();
     $(".more:eq(" + visiblediv + ")").show();
- 
-	// for hiding next button
-	if (visiblediv == 5) {
+
+    // for hiding next button
+    if (visiblediv == 5) {
       $("#nextButton").hide();
-      $("#resumebutton").show()
+      $("#resumebutton").show();
     } else {
       $("#nextButton").show();
       $("#resumebutton").hide();
     }
 
-
-
-
-	// for hiding previous button 
+    // for hiding previous button
     if (visiblediv == 0) {
       $("#previousButton").hide();
     } else {
@@ -75,7 +69,6 @@ $(function () {
       visiblediv++;
     }
     showdiv();
-
   }
   function showprev() {
     if (visiblediv == 0) {
@@ -84,38 +77,29 @@ $(function () {
       visiblediv--;
     }
     showdiv();
-
   }
 
-
-  $("#resumebutton").click(function () { 
-    generatePDF();
-    
+  $("#resumebutton").click(function () {
+    var doc = new jsPDF(); //create jsPDF object
+    doc.fromHTML(
+      document.getElementById("ResumeSection"), // page element which you want to print as PDF
+      15,
+      15,
+      {
+        width: 170, //set width
+      },
+      function (a) {
+        doc.save("Resume.pdf"); // save file name as HTML2PDF.pdf
+      }
+    );
   });
 
   // adding content and manupulation
 
-  
+  $("#name").change(function (e) {
+   
+   $(".name2").html(details.basics.firstname +" "+details.basics.lastname);  
+
+   
+  });
 });
-
-
-function generatePDF() {
-  var doc = new jsPDF();  //create jsPDF object
-   doc.fromHTML(document.getElementById("ResumeSection"), // page element which you want to print as PDF
-   15,
-   15, 
-   {
-     'width': 170  //set width
-   },
-   function(a) 
-    {
-     doc.save("HTML2PDF.pdf"); // save file name as HTML2PDF.pdf
-   });
- }
- // add more button//
- //function addNewSkill()
- 
-  
- 
- 
- 
