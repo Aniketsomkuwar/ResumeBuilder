@@ -79,27 +79,10 @@ $(function () {
     showdiv();
   }
 
-  $("#resumebutton").click(function () {
-    var doc = new jsPDF(); //create jsPDF object
-    doc.fromHTML(
-      document.getElementById("ResumeSection"), // page element which you want to print as PDF
-      15,
-      15,
-      {
-        width: 170, //set width
-      },
-      function (a) {
-        doc.save("Resume.pdf"); // save file name as HTML2PDF.pdf
-      }
-    );
-  });
 
   // adding content and manupulation
 
   $("#name").change(function (e) {
-   
-   $(".name2").html(details.basics.firstname +" "+details.basics.lastname);  
-
-   
+    $(".name2").html(details.basics.firstname + " " + details.basics.lastname);
   });
 });

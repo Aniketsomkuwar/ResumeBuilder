@@ -6,12 +6,16 @@
   --secondary: #0eb29f;
   --text: #e9c37a;
 }
-body {
-  width: 100%;
+
+html {
   height: 100%;
 }
 
-#instruction{
+body {
+  min-height: 100%;
+  background-color: var(--primary) !important;
+}
+#instruction {
   background-color: var(--text);
 }
 
@@ -63,7 +67,6 @@ section p {
 
 section button {
   margin-top: 20px;
-  background-color: red;
 }
 /* section-2*/
 .contain {
