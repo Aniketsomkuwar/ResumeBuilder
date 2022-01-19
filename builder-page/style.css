@@ -6,7 +6,10 @@
   --secondary: #0eb29f;
   --text: #e9c37a;
 }
-
+body{
+  margin: 0;
+  padding: 0;
+}
 
 /* header */
 .brandname {
@@ -113,12 +116,19 @@ textarea {
   border: 2px solid var(--text);
   border-radius: 5px;
 }
-
-
-
 .box{
   width: 200px;
   height: 200px;
   background-color: red;
+}
+/* resume size*/
+#resume
+{
+  height:297mm;
+  width:210mm;
+  margin:.5in .5in .5in .5in; 
+}
+.margin{
+  margin-bottom: 0;
 }
 
