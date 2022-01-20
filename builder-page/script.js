@@ -4,18 +4,33 @@ const details = {
     lastname: null,
     email: null,
     phone: null,
-    summary: null,
-    postalCode: null,
     city: null,
-    state: null,
+    Country: null,
+  },
+  summary: null,
+  education: {
+    from: null,
+    to: null,
+    institute_name: null,
+    percentage: null + "%",
+    additional_info_education: null,
   },
   previousExp: {
     jobtitle: null,
     employer: null,
     city: null,
-    country: null,
+    experience_country: null,
     startDate: null,
     endDate: null,
+  },
+  skills: [],
+  socials: {
+    linkedin: null,
+    github: null,
+  },
+  Projects: {
+    name_of_project: null,
+    project_description: null,
   },
 };
 
@@ -78,7 +93,6 @@ $(function () {
     }
     showdiv();
   }
-
 
   // adding content and manupulation
 
