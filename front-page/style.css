@@ -43,10 +43,7 @@ body {
   font-size: 30px;
   color: var(--text);
 }
-.navbar-links a:hover,
-.brandname:hover {
-  color: var(--secondary);
-}
+
 /* section */
 
 section {
@@ -68,30 +65,7 @@ section p {
 section button {
   margin-top: 20px;
 }
-/* section-2*/
-.contain {
-  height: 30vh;
-  width: 100%;
-  position: relative;
-  display: flex;
-  overflow: hidden;
-  justify-content: start;
-}
-.text-1 {
-  margin-top: auto;
-  margin-bottom: auto;
-  font-size: 4rem;
-  animation: anim 5s linear infinite;
-}
 
-@keyframes anim {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(100%);
-  }
-}
 
 /* footer */
 footer {
